@@ -28,7 +28,7 @@ if y_n == 'y':
     # Ask user to input a numerical value for their input - no rule exists to prevent any input from being accepted at this time.
     spice_lvl = input()
     # If 'y' is input then following user input the this will be output to the display to match user input and statement
-    print(f's{2} Add breading to chicken\n and add crushed red peppers to match spice level {spice_lvl}')
+    print(f's{2} Add breading to chicken\n and add crushed red peppers to match spice level {spice_lvl}\n')
 # If user input = 'n' statement will print as written in step 2 and through the rest of the program  
 else:
     print(s2) 
